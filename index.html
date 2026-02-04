@@ -4,36 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Previsão do Tempo</title>
+    <link rel="Stylesheet" href="style.css">
 </head>
 <body>
     
-    <h1>WeatherSnap☀️</h1>
+    <h1>WeatherSnap ☀️</h1>
 
     <div id ="topico">
-        <p>⌂ Início</p>
-        <p>Comparar </p>
+        <p id = "inicio">⌂ Início</p>
+        <div id = "comparar">
+        <p>〽︎ Comparar  </p>
+        <p id = "numero">3</p>
+    </div>
     </div>
 
     <div id="busca">
-        <img id = "lupa" src = lupa.png>
-        <p>Buscar cidade...</p>
+        <p>🔍︎ Buscar cidade...</p>
         <button>Buscar</button>
     </div>
 
     <div id="principal">
-        <p id = cidade>Brasilia, Plano Piloto</p>
-        <p id = data>Quinta-feira, 24 de Abril</p>
-        <p id = temperatura>☁️ 24°C </p>
-        <p id = "clima"> Nublado</p>
+        <div id = "cidade-compartilhamento">
+            <div id="cidade-data">
+                <p id = cidade>Brasília, Plano Piloto</p>
+                <p id = data>Quinta-feira, 24 de Abril</p>
+            </div>
+            
+            <div id="compartilhamento">
+                <p>〽︎</p>
+                <p>➦</p>
+            </div>
+            
+        </div>
+        
+        <div id="div-temperatura">
+            <p>☁︎</p>
+        <p id = temperatura>24°C </p>
+    </div>
+
+        <div id="div-clima">
+            <p id = "clima"> Nublado</p>
+
+            <div id="vento-umidade">
+
+            <p id = "vento">☴ 15.3 km/h</p>
+            <p id = "umidade">🌢 63%</p>
+        </div>
+    </div>
+
         <p id = mensagem> Que tal aproveitar para visitar um museu ou cinema hoje?</p>
         <p id = msg-proximosDias>Próximos dias</p>
 
         <div id = "proximosDias">
-            <div class ="dias">
-                <p class = "diaDaSemana">qui.</p>
-                <p class = "clima">☁️</p>
-                <p class = "temperatura">26°C</p>
-            </div>
+                    <div class ="dias">
+                        <p class = "diaDaSemana">qui.</p>
+                        <p class = "clima">☁️</p>
+                        <p class = "temperatura">26°C</p>
+                    </div>
+
+                    <div class ="dias">
+                        <p class = "diaDaSemana">sex.</p>
+                        <p class = "clima">🌧️</p>
+                        <p class = "temperatura">28°C</p>
+                    </div>
+
+                    <div class ="dias">
+                        <p class = "diaDaSemana">sáb.</p>
+                        <p class = "clima">🌧️</p>
+                        <p class = "temperatura">26°C</p>
+                    </div>
+                
         </div>
 
     </div>

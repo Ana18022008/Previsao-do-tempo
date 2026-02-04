@@ -1,0 +1,170 @@
+body{
+    background-color:rgb(118 179 251);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+   
+}
+
+#topico{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 40rem;
+
+    #inicio{
+     background-color: rgb(169 208 253); 
+     width: 5rem;
+     height: 2rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: 500;
+    }
+
+    #comparar{
+        display: flex;
+        column-gap: 0.5rem;
+        align-items: center;
+        #numero{
+            width: 1.3rem;
+            height: 1.3rem;
+            background-color: white;
+            color: rgb(118 179 251);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 800;
+            border-radius: 100%;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+#busca{
+    display: flex;
+    flex-direction: row;
+    width: 26.3rem;
+    background-color: rgb(169 205 254); 
+    justify-content: space-between;
+    height: 2.5rem;
+    align-items: center;
+
+        button{
+            height: 2.5rem;
+            width: 4.5rem;
+            background-color: rgb(186, 215, 248);
+            border: none;
+            color: white;
+            font-weight: 600;
+            font-size: 0.87rem;
+        }
+
+        p{
+            margin-left: 1rem;
+        }
+}
+
+#principal{
+    background-color: rgb(169 205 254);
+    width: 26.3rem;
+    border-radius: 0.7rem;
+    box-shadow: 0 13px 16px rgba(0, 0, 0, 0.1);
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    #cidade-compartilhamento{
+        display: flex;
+        justify-content: space-between;
+        width: 24rem;
+        
+
+    #cidade-data{
+        height: 5rem;
+        display: flex;
+        flex-direction: column;
+        
+
+        #cidade{
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        #data{
+            margin-top: -1.3rem;
+            color: rgba(255, 255, 255, 0.822);
+            letter-spacing: 0.066rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+}
+
+#compartilhamento{
+    display: flex;
+    width: 4rem;
+    justify-content: space-between;
+    height: 2rem;
+    
+
+    p{
+        background-color: rgb(186, 215, 248);
+        width: 1.8rem;
+        height: 1.7rem;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+     }
+    }
+    } 
+}
+
+#div-temperatura{
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+p{
+    font-size: 2.7rem;
+    font-weight: 600;
+    
+}
+}
+
+#div-clima{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 6rem;
+    
+    
+    #clima{
+        font-weight: 600;
+        height: 0.5rem;
+    }
+
+    #vento-umidade{
+        display: flex;
+        flex-direction: row;
+        width: 9rem;
+        justify-content: space-between;
+        
+
+        p{
+            font-size: 0.9rem;
+            color:rgba(255, 255, 255, 0.822);
+            
+        }
+
+    }
+
+}
