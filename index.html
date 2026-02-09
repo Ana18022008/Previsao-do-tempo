@@ -19,15 +19,15 @@
     </div>
 
     <div id="busca">
-        <p>🔍︎ Buscar cidade...</p>
-        <button>Buscar</button>
+        <input type ="text" id = "cidade" placeholder=  "🔍︎ Buscar cidade...">
+        <button onclick="buscarCidade()">Buscar</button>
     </div>
 
     <div id="principal">
         <div id = "cidade-compartilhamento">
             <div id="cidade-data">
-                <p id = cidade>Brasília, Plano Piloto</p>
-                <p id = data>Quinta-feira, 24 de Abril</p>
+                <p id = "cidade-apresentar">Brasília, Plano Piloto</p>
+                <p id = "data">Quinta-feira, 24 de Abril</p>
             </div>
             
             <div id="compartilhamento">
@@ -39,7 +39,7 @@
         
         <div id="div-temperatura">
             <p>☁︎</p>
-        <p id = temperatura>24°C </p>
+        <p id = "temperatura">24°C </p>
     </div>
 
         <div id="div-clima">
@@ -52,8 +52,11 @@
         </div>
     </div>
 
-        <p id = mensagem> Que tal aproveitar para visitar um museu ou cinema hoje?</p>
-        <p id = msg-proximosDias>Próximos dias</p>
+        <div id = "mensagem">
+            <p> Que tal aproveitar para visitar um museu ou cinema hoje?</p>
+        </div>
+ 
+        <p id = "msg-proximosDias">Próximos dias</p>
 
         <div id = "proximosDias">
                     <div class ="dias">
@@ -78,6 +81,6 @@
 
     </div>
 
-
+<script src="script.js"></script>
 </body>
 </html>
